@@ -6,22 +6,22 @@ VALUES
 ("IT and Development"), 
 ("Human Resources");
 
-INSERT INTO roles (id, title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES 
-(001, "Entry Level Sales", 45000, 001),
-(002, "Senior Sales Representative", 85000, 001),
-(003, "Sales Manager", 115000, 001),
-(004, "Digital Marketing", 45000, 002),
-(005, "Director of Marketing", 75000, 002),
-(006, "Chief Marketing Offiver", 105000, 002),
-(007, "Bookkeeper", 50000, 003),
-(008, "Financial Analyst", 80000, 003),
-(009, "Chief Financial Officer", 145000, 003),
-(010, "Junior Developer", 65000, 004),
-(011, "IT Project Manager", 70000, 004),
-(012, "Chief Technology Officer", 150000, 004),
-(013, "Entry Level Human Resource", 50000, 005),
-(014, "Human Resources Director", 65000, 005);
+("Entry Level Sales", 45000, 001),
+("Senior Sales Representative", 85000, 001),
+("Sales Manager", 115000, 001),
+("Digital Marketing", 45000, 002),
+("Director of Marketing", 75000, 002),
+("Chief Marketing Offiver", 105000, 002),
+("Bookkeeper", 50000, 003),
+("Financial Analyst", 80000, 003),
+("Chief Financial Officer", 145000, 003),
+("Junior Developer", 65000, 004),
+("IT Project Manager", 70000, 004),
+("Chief Technology Officer", 150000, 004),
+("Entry Level Human Resource", 50000, 005),
+("Human Resources Director", 65000, 005);
 
 INSERT INTO employee (last_name, first_name, role_id, manager_id)
 VALUES
